@@ -1,16 +1,34 @@
-# React + Vite
+# 🎴 GSAP Stacked Cards (React + Tailwind CSS)
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+An interactive, high-performance React component that creates a sticky stacked-card scrolling effect using **GSAP ScrollTrigger** and **Tailwind CSS**. 
 
-Currently, two official plugins are available:
+As the user scrolls, the container pins in place while child cards slide up sequentially, overlapping the previous cards in a smooth depth animation. Perfect for landing pages, feature showcases, or portfolio sections.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 📌 **Sticky Container Pinning:** Keeps the main wrapper fixed while cards transition into view.
+- 📜 **Scrub-Driven Animation:** Card movements are bound directly to the user's scroll speed via GSAP `ScrollTrigger`.
+- 🎨 **Tailwind CSS Styling:** Fully customized using modern Tailwind utility classes.
+- ⚡ **Vite Powered:** Built on Vite for lightning-fast HMR and minimal bundle footprint.
+- 🧼 **Clean Lifecycle Management:** Uses `@gsap/react` (`useGSAP`) for auto-cleanup and hot-reload stability.
 
-## Expanding the Oxlint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## 🛠️ Tech Stack
+
+- **Framework:** React 18+
+- **Build Tool:** Vite
+- **Animation Engine:** GSAP (GreenSock Animation Platform)
+- **Scroll Plugin:** GSAP ScrollTrigger
+- **Styling:** Tailwind CSS
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the repository
+```bash
+git clone [https://github.com/YOUR_USERNAME/gsap-stacked-cards.git](https://github.com/YOUR_USERNAME/gsap-stacked-cards.git)
+cd gsap-stacked-cards
